@@ -1,0 +1,273 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+ul, ol{
+    margin:0;
+    padding:0; 
+} 
+.header{
+    background-color: #000;
+}
+.header .navbar-brand{
+    color:#fff;
+    font-size: 30px;;
+    font-weight:600;
+}
+.header .logo{
+    color:#ff0000;
+    font-weight: bold;
+}
+.header a.nav-link{
+    color:#fff;
+}
+.banner_section{
+    min-height: 600px;
+    background:#000;   
+}
+.banner_content{
+    padding: 100px 10px;
+}
+.banner_content h2{
+    color:#fff;
+    font-size:80px;
+    font-weight:800;
+}
+.main-btn{
+    display:inline-block;
+    background-color: transparent;
+    border:none;
+    margin-top:100px;
+}
+.main-btn span{
+    font-weight:600;
+    color:#fff;
+    text-decoration: none;
+    border:2px solid #ff0000;
+    width:100%;
+    padding:15px 30px;
+    display:block;
+}
+.back{
+    background-image: url('./images/back.png');
+    background-position: center right;
+    min-height: 500px;
+    background-repeat: no-repeat;
+}
+.services{
+    padding:100px;
+}
+.section_headline h2{
+    font-size:50px;
+    font-weight:bold;
+    display:inline-block;
+    position: relative; 
+}
+.section_headline h2::before{
+    content:'';
+    border-bottom:2px solid #ff0000;
+    width:20%;
+    position:absolute;
+    top:-40%;
+}
+.section_headline p{
+    color:black;
+    font-weight: 600;
+}
+.section_headline_about h2{
+    font-size:50px;
+    font-weight:bold;
+    display:inline-block;
+    position: relative; 
+}
+.section_headline_about h2::before{
+    content:'';
+    border-bottom:2px solid #ff0000;
+    width:20%;
+    position:absolute;
+    top:-40%;
+}
+.section_headline_about p{
+    color:white;
+    font-weight: 600;
+
+}
+.section_headline_user h2{
+    font-size:50px;
+    font-weight:bold;
+    display:inline-block;
+    position: relative;
+}
+.section_headline_user h2::before{
+    content:'';
+    border-bottom:2px solid #ff0000;
+    margin-bottom:20px;
+    width:20%;
+    position:absolute;
+    top:-40%;
+}
+.section_headline_user p{
+    color:white ;
+}
+.services_name:hover {
+    background-color: #ff0000;
+}
+.skyline_img{
+    background-image:url("images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position:relative;
+}
+.beast_img{
+    background-image:url("images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position:relative;
+}
+.about{
+    background-color: #000;
+    padding:100px 0 30px;
+}
+.about_company{
+    background-image:url("/images/niopower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position:relative;
+}
+.about_company_second{
+    background-image:url("/images/niohouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    position:relative;
+}
+.about_company_third{
+    background-image:url("/images/neoservice.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    position:relative;
+}
+.about_company_text{
+    position:absolute;
+    bottom:16px;
+    left:1px;
+    color: white;
+}
+.about_company_text h3{
+    margin-bottom:1px;
+    font-weight:bold;
+    font-size:20px;
+}
+.about_company_text p{
+    font-size:12px;
+}
+.about_box{
+    padding:16px;
+}
+.about_box h3{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.about h2{
+    color: white;
+}
+.about_box p{
+    color: white;
+    font-size: 16px;
+    line-height:1.8;
+    font-weight: bold;
+}
+.skyline_box{
+    padding:16px;
+}
+.skyline_box h2{
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.skyline_box p{
+    color: white;
+    font-size: 16px;
+    line-height:1.8;
+    font-weight: bold;
+}
+.skyline_spec{
+    background-color: #000;
+    padding:100px 0 30px;
+}
+.skyline_spec h2{
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.beast_spec{
+    background-color: #000;
+    padding:100px 0 30px;
+}
+.beast_spec h2{
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.user{
+    background-color: #000;
+
+    padding:100px 0 30px;
+}
+.user_box{
+    padding:50px;
+}
+.user h2, p{
+    color: white;
+}
+.user_text p{
+    color:white;
+    font-size: 20px;
+    margin-top: 80px;
+}
+.user_text .designer{
+    color: #ff0000;
+    font-weight: bold;
+    font-size:1.32px;
+    margin-top: 40px;
+}
+.servicerow h3{
+    color: black;
+}
+.envi_headline h2{
+    margin-top: 40px;
+    font-size:50px;
+    font-weight:bold;
+    display:inline-block;
+    position: relative;
+}
+.envi_headline h2::before{
+    content:'';
+    border-bottom:2px solid #ff0000;
+    margin-bottom: 20px;
+    width:20%;
+    position:absolute;
+    top:-40%;
+}
+.envi_headline p{
+    color:var(#ff0000);
+    font-weight: 600;
+}
+
+
+
